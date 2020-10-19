@@ -1,0 +1,153 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+	background:#fd79a8;
+}
+.header-logo{
+	width:150px;
+}
+.header-logo img{
+	width:100%;
+}
+.header-menu{}
+.header-menu ul{
+	margin-bottom:0px;
+	text-align:right;
+}
+.header-menu ul li{
+	display:inline-block;
+	margin-left:-4px;
+	border-right:1px solid #fff;
+}
+.header-menu ul li:last-child{
+	border-right:0;
+}
+.header-menu ul li a{
+	display:inline-block;
+	padding:0 30px ;
+	font-size:20px;
+	color:#fff;
+	
+	line-height:60px;
+	transition:.5s;
+}
+
+.header-menu ul li a:hover{
+	background:#e84393;
+}
+.slider{
+	background:url('https://i.ibb.co/M7GGM6P/slider.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:180px 0;
+}
+
+.slider-text h1{
+	background:rgba(255, 118, 117,.2);
+	width:500px;
+	margin:auto;
+	padding:5px 10px;
+	
+}
+.slider-text h2{
+	background:rgba(108, 92, 231,.2);
+	display:inline-block;
+	padding:15px;
+	margin-top:15px;
+	
+}
+.about-section{
+	background:#dfe6e9;
+}
+.about-text p{
+	font-size:20px;
+	font-family:arial;
+}
+.content-item p{
+	font-size:18px;
+	
+}
+.content-item span{
+	background:skyblue;
+	display:block;
+	height:50px;
+	width:50px;
+	margin:auto;
+	line-height:50px;
+	font-size:25px;
+	margin-top:15px;
+}
+.content-item{
+	background:#dfe6e9;
+	transition:.4s;
+}
+.content-item:hover{
+	box-shadow:0 0 10px #000;
+	transform:scale(1.02)
+}
+img{
+	max-width:100%;
+}
+.blog-item p{
+	font-size:20px;
+}
+
+.blog-margin{
+	margin-top:20px;
+	padding:20px;
+}
+.blog-right h1{
+	text-align:center;
+	border-bottom:3px solid skyblue;
+	margin-bottom:20px;
+}
+.blog-right ul li{
+	list-style:none;
+}
+.blog-right ul li h3{
+	padding:8px 10px;
+	border:1px solid #ddd;
+}
+
+.google-map{
+	padding:20px;
+	margin:50px 0 50px 0;
+}
+
+.contact-form input{
+	margin-bottom:10px;
+	
+}
+
+.contact-form{
+	margin-top:50px;
+}
+.contact-form .btn{
+	margin-top:10px;
+	
+	border:1px solid #ddd;
+}
+.footer{
+	background: #2c3e50;
+	padding:20px 0;
+}
+
+.footer p{
+	color:#fff;
+	font-size:18px;
+}
+.footer-right{
+	text-align:right;
+}
+.footer-right a{
+	display:inline-block;
+	color:#fff;
+	margin-right:10px;
+}
+
+
+
+
+
+
